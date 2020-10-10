@@ -1,0 +1,33 @@
+# Created at 2020-08-20T23:26:08.150
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+# Created at 2020-08-20T23:26:13.669
+Unexpected IOException: 8,1,TestCase.V1_5.Plan.PLanDrag,BeforeClass(TestCase.V1_5.Plan.PLanDrag),null,chrome not reachable\000A  (Session info: chrome=84.0.4147.89)\000ABuild info: version: '3.4.0'\002C revision: 'unknown'\002C time: 'unknown'\000ASystem info: host: 'LAPTOP-ASSFC36J'\002C ip: '192.168.199.131'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_65'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities [{networkConnectionEnabled=false\002C chrome={chromedriverVersion=83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416})\002C userDataDir=C:\005CUsers\005Cthink\005CAppData\005CLocal\005CTemp\005Cscoped_dir84584_64815904}\002C timeouts={implicit=0.0\002C pageLoad=300000.0\002C script=30000.0}\002C pageLoadStrategy=normal\002C unhandledPromptBehavior=dismiss and notify\002C strictFileInteractability=false\002C platform=ANY\002C proxy=Proxy()\002C goog:chromeOptions={debuggerAddress=localhost:55971}\002C acceptInsecureCerts=false\002C browserVersion=84.0.4147.89\002C browserName=chrome\002C javascriptEnabled=true\002C platformName=windows\002C setWindowRect=true\002C webauthn:virtualAuthenticators=true}]\000ASession ID: 82dcf9a2c4cae6a5680ef11db7ce5fa6,null,chrome not reachable\000A  (Session info: chrome=84.0.4147.89)\000ABuild info: version: '3.4.0'\002C revision: 'unknown'\002C time: 'unknown'\000ASystem info: host: 'LAPTOP-ASSFC36J'\002C ip: '192.168.199.131'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_65'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities [{networkConnectionEnabled=false\002C chrome={chromedriverVersion=83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416})\002C userDataDir=C:\005CUsers\005Cthink\005CAppData\005CLocal\005CTemp\005Cscoped_dir84584_64815904}\002C timeouts={implicit=0.0\002C pageLoad=300000.0\002C script=30000.0}\002C pageLoadStrategy=normal\002C unhandledPromptBehavior=dismiss and notify\002C strictFileInteractability=false\002C platform=ANY\002C proxy=Proxy()\002C goog:chromeOptions={debuggerAddress=localhost:55971}\002C acceptInsecureCerts=false\002C browserVersion=84.0.4147.89\002C browserName=chrome\002C javascriptEnabled=true\002C platformName=windows\002C setWindowRect=true\002C webauthn:virtualAuthenticators=true}]\000ASession ID: 82dcf9a2c4cae6a5680ef11db7ce5fa6,PLanDrag.BeforeClass:17->BaseTest.getUrl:209 \00BB WebDriver chrome not reachable\000A...,org.openqa.selenium.WebDriverException: \000Achrome not reachable\000A  (Session info: chrome=84.0.4147.89)\000ABuild info: version: '3.4.0'\002C revision: 'unknown'\002C time: 'unknown'\000ASystem info: host: 'LAPTOP-ASSFC36J'\002C ip: '192.168.199.131'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_65'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities [{networkConnectionEnabled=false\002C chrome={chromedriverVersion=83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416})\002C userDataDir=C:\005CUsers\005Cthink\005CAppData\005CLocal\005CTemp\005Cscoped_dir84584_64815904}\002C timeouts={implicit=0.0\002C pageLoad=300000.0\002C script=30000.0}\002C pageLoadStrategy=normal\002C unhandledPromptBehavior=dismiss and notify\002C strictFileInteractability=false\002C platform=ANY\002C proxy=Proxy()\002C goog:chromeOptions={debuggerAddress=localhost:55971}\002C acceptInsecureCerts=false\002C browserVersion=84.0.4147.89\002C browserName=chrome\002C javascriptEnabled=true\002C platformName=windows\002C setWindowRect=true\002C webauthn:virtualAuthenticators=true}]\000ASession ID: 82dcf9a2c4cae6a5680ef11db7ce5fa6\000A\0009at TestCase.V1_5.Plan.PLanDrag.BeforeClass(PLanDrag.java:17)\000A
+
+
+# Created at 2020-08-20T23:26:13.675
+Unexpected IOException: 5,1,TestCase.V1_5.Plan.PLanDrag,PLanDrag(TestCase.V1_5.Plan.PLanDrag),TestCase.V1_5.Plan.PLanDrag,null,null
+
+
+# Created at 2020-08-20T23:26:13.687
+Unexpected IOException: 9,1,TestCase.V1_5.Plan.PLanDrag,PLanDrag(TestCase.V1_5.Plan.PLanDrag),null,null,null
+
+
+# Created at 2020-08-20T23:26:13.696
+Unexpected IOException: 9,1,TestCase.V1_5.Plan.PLanDrag,AfterClass(TestCase.V1_5.Plan.PLanDrag),null,null,null
+
+
+# Created at 2020-08-20T23:26:13.743
+Unexpected IOException: 9,1,TestCase.V1_5.Log.LogDrag,AfterSuite(TestCase.V1_5.Log.LogDrag),null,null,null
+
+
+# Created at 2020-08-20T23:26:13.805
+Unexpected IOException: 2,1,org.apache.maven.surefire.testng.TestNGXmlTestSuite,TestSuite,null,null,null
+
+

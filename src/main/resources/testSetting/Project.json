@@ -1,0 +1,14 @@
+{
+  "project": {
+    "key": "TP",
+    "name": "测试项目",
+    "projectTypeKey": "business",
+    "projectTemplateKey": "com.atlassian.jira-core-project-templates:jira-core-project-management",
+    "description": "Example Project description",
+    "lead": "admin",
+    "assigneeType": "PROJECT_LEAD"
+  },
+  "key": "TP",
+  "name": "测试",
+  "lead": "Admin"
+}

@@ -1,0 +1,19 @@
+{
+  "workPlan": {
+    "assigneeKey": "",
+    "auditor": "admin",
+    "endTime": "2020-02-15",
+    "startTime": "2020-02-20",
+    "planItemId": "10000",
+    "status": "0",
+    "memo": "f1",
+    "workHour": "1h",
+    "id": "",
+    "planType": "10001"
+  },
+  "isAutoAddPlan": "true",
+  "autoStartDate": "2020-02-15",
+  "autoEndDate": "2020-02-20",
+  "status": ["0","1","2"],
+  "workHour": ["1h","4h","7h"]
+}

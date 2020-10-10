@@ -1,0 +1,23 @@
+{
+  "users": [
+    {
+      "name": "Anne",
+      "password": "123456",
+      "emailAddress": "Anne@shdsd.com",
+      "displayName": "Anne"
+    },
+    {
+      "name": "Jay",
+      "password": "123456",
+      "emailAddress": "Jay@shdsd.com",
+      "displayName": "Jay"
+    }
+  ],
+  "user": {
+    "name": "hh",
+    "password": "123456",
+    "emailAddress": "charlie@atlassian.com",
+    "displayName": "hh"
+  }
+}
+

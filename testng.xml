@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+    <test name="TimeWise">
+        <packages>
+            <package name="TestCase.V1_1.*" />
+            <package name="TestCase.V1_2.*" />
+            <package name="TestCase.V1_3.*" />
+           <package name="TestCase.V1_4.*" />
+            <package name="TestCase.V1_5.*" />
+            <package name="TestCase.CheckOut.*"/>
+        </packages>
+    </test>
+    <listeners>
+        <listener class-name="shdsd.selenium.Tools.ListenerUntils"></listener>
+    </listeners>
+    <parameter name="browName" value="Chrome" ></parameter>
+    <parameter name="seleniumVersion" value="3.x"></parameter>
+</suite>

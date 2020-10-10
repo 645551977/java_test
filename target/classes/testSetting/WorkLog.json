@@ -1,0 +1,18 @@
+{
+  "workLog": {
+    "author": "",
+    "issueId": "10003",
+    "startDate": "2020-02-01",
+    "timeWorkedStr": "1.5h",
+    "remainingEstimateStr": "0h",
+    "memo": "f1",
+    "workLogType":"10001"
+  },
+  "auditor": "",
+  "isAutoAddLog": "true",
+  "autoStartDate": "2020-02-01",
+  "autoEndDate": "2020-02-12",
+  "status": ["0","1","2"],
+  "timeWorkedStr": ["45m","8h","3h"]
+}
+
